@@ -12,7 +12,7 @@ It's compatible with python 3.
 
 - Install latest version from git repository using pip:
 ```bash
-$ pip install git+https://github.com/alirezamika/autoscraper.git
+$ pip install git+https://github.com/zinping/AutoScraping.git
 ```
 
 - Install from PyPI:
@@ -107,9 +107,9 @@ scraper.get_result_exact('https://finance.yahoo.com/quote/MSFT/')
 ```python
 from autoscraper import AutoScraper
 
-url = 'https://github.com/alirezamika/autoscraper'
+url = 'https://github.com/zinping/AutoScraping'
 
-wanted_list = ['A Smart, Automatic, Fast and Lightweight Web Scraper for Python', '2.5k', 'https://github.com/alirezamika/autoscraper/issues']
+wanted_list = ['A Smart, Automatic, Fast and Lightweight Web Scraper for Python', '2.5k', 'https://github.com/zinping/AutoScraping/issues']
 
 scraper = AutoScraper()
 scraper.build(url, wanted_list)
@@ -135,7 +135,7 @@ scraper.load('yahoo-finance')
 
 ## Tutorials
 
-- See [this gist](https://gist.github.com/alirezamika/72083221891eecd991bbc0a2a2467673) for more advanced usages.
+- See [this gist](https://gist.github.com/zinping/72083221891eecd991bbc0a2a2467673) for more advanced usages.
 - [AutoScraper and Flask: Create an API From Any Website in Less Than 5 Minutes](https://medium.com/better-programming/autoscraper-and-flask-create-an-api-from-any-website-in-less-than-5-minutes-3f0f176fc4a3)
 
 ## Issues
